@@ -1,8 +1,8 @@
 //SLIDERS
 if($('.slider').length>0){
 	$('.slider').slick({
-		autoplay: false,
-		infinite: false,
+		autoplay: true,
+		infinite: true,
 		dots: false,
 		arrows: false,
 		accessibility:false,

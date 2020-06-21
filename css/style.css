@@ -131,6 +131,28 @@ a {
 	}
 }
 
+.slider_container {
+	max-width: 1920px;
+	margin: 0 auto;
+	width: 100%;
+}
+@media (max-width: 1932px) {
+	.slider_container {
+		max-width: 1920px;
+	}
+}
+@media (max-width: 1660px) {
+	.slider_container {
+		max-width: 1660px;
+	}
+}
+@media (max-width: 1280px) {
+	.slider_container {
+		max-width: none;
+		padding: 0 10px;
+	}
+}
+
 .form-row {
 	display: -webkit-box;
 	display: -ms-flexbox;
@@ -5060,6 +5082,10 @@ nav {
 	background-color: #fff;
 }
 
+.sticky .nav_wrapper {
+	margin: 10px 0;
+}
+
 .nav_wrapper {
 	display: -webkit-box;
 	display: -ms-flexbox;
@@ -5070,18 +5096,26 @@ nav {
 	-webkit-box-align: center;
 	    -ms-flex-align: center;
 	        align-items: center;
-	margin: 40px 0;
+	margin: 20px 0;
 	position: relative;
 }
 
 .nav_logo {
-	margin-right: 80px;
+	-webkit-box-flex: 0;
+	    -ms-flex: 0 0 25%;
+	        flex: 0 0 25%;
 }
 
 .nav_items {
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	-webkit-box-flex: 0;
+	    -ms-flex: 0 0 55%;
+	        flex: 0 0 55%;
 }
 
 .nav_items li {
@@ -5103,6 +5137,10 @@ nav {
 	padding: 20px 50px;
 	text-transform: uppercase;
 	letter-spacing: 5px;
+	-webkit-box-flex: 0;
+	    -ms-flex: 0 0 20%;
+	        flex: 0 0 20%;
+	text-align: center;
 }
 
 .callback:hover {
@@ -5115,6 +5153,11 @@ nav {
 
 .callback:hover a {
 	color: #fff;
+}
+
+.sl_container, .service {
+	max-width: 1660px;
+	margin: 0 auto;
 }
 
 .slide_wrapper {
@@ -5238,11 +5281,11 @@ nav {
 	.menu__body {
 		position: absolute;
 		background-color: fff;
-		top: 0;
+		top: 55px;
+		left: -110%;
 		height: 450px;
 		width: 100%;
 		z-index: 2;
-		left: -100%;
 		-webkit-transition: all 0.5s ease;
 		-o-transition: all 0.5s ease;
 		transition: all 0.5s ease;
@@ -5427,6 +5470,8 @@ nav {
 }
 footer {
 	background-color: #333333;
+	max-width: 1660px;
+	margin: 0 auto;
 }
 
 .border_wrapper {
@@ -6108,7 +6153,7 @@ h4:before {
 	display: block;
 	height: 100%;
 	width: 100%;
-	background: #000 url("../img/services/ac2.jpg") center center/cover no-repeat;
+	background: #000 url("../../img/services/ac2.jpg") center center/cover no-repeat;
 	opacity: 0.4;
 	-webkit-transform: skew(-45deg);
 	    -ms-transform: skew(-45deg);
@@ -6119,7 +6164,7 @@ h4:before {
 }
 
 .chooser_left {
-	background: #000 url("../img/services/ac1.jpg") center center/cover no-repeat;
+	background: #000 url("../../img/services/ac1.jpg") center center/cover no-repeat;
 	height: 100%;
 	width: 100%;
 }
@@ -6363,7 +6408,7 @@ h4:before {
 	}
 
 	.welcome_text {
-		background: url("../img/service/shape_grey.png") center center/contain no-repeat;
+		background: url("../../img/service/shape_grey.png") center center/contain no-repeat;
 	}
 
 	.welcome_text .title {
