@@ -6153,7 +6153,7 @@ h4:before {
 	display: block;
 	height: 100%;
 	width: 100%;
-	background: #000 url("../../img/services/ac2.jpg") center center/cover no-repeat;
+	background: #000 url("../img/services/ac2.jpg") center center/cover no-repeat;
 	opacity: 0.4;
 	-webkit-transform: skew(-45deg);
 	    -ms-transform: skew(-45deg);
@@ -6164,7 +6164,7 @@ h4:before {
 }
 
 .chooser_left {
-	background: #000 url("../../img/services/ac1.jpg") center center/cover no-repeat;
+	background: #000 url("../img/services/ac1.jpg") center center/cover no-repeat;
 	height: 100%;
 	width: 100%;
 }
@@ -6408,7 +6408,7 @@ h4:before {
 	}
 
 	.welcome_text {
-		background: url("../../img/service/shape_grey.png") center center/contain no-repeat;
+		background: url("../img/service/shape_grey.png") center center/contain no-repeat;
 	}
 
 	.welcome_text .title {
